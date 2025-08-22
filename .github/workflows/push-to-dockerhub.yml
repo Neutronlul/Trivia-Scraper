@@ -27,5 +27,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ vars.DOCKERHUB_USERNAME }}/your-repo:dev
-            ${{ vars.DOCKERHUB_USERNAME }}/your-repo:${{ github.sha }}
+            ${{ vars.DOCKERHUB_USERNAME }}/dumb-jared-containerization:dev
+            ${{ vars.DOCKERHUB_USERNAME }}/dumb-jared-containerization:${{ github.sha }}
